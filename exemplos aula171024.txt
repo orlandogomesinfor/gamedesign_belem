@@ -1,0 +1,114 @@
+#ETEC - PARQUE BELÉM
+#CURSO JOGOS DIGITAIS
+#PROF. ORLANDO
+#AULA 17-10-24
+#================================================================
+
+#EXEMPLO 1
+#Conhecendo o comando if
+idade=3
+if idade == 1:
+    print("idade 1")
+print('Fim de programa...')
+
+
+
+
+
+#EXEMPLO 2
+#Conhecendo o comando if
+idade=3
+if idade == 1:
+    print("idade 1")
+else:
+    print('Infelizmente nao é 1')
+print('Fim de programa...')
+
+
+#EXEMPLO 3
+#Conhecendo o comando if
+idade=3
+if idade == 1:
+    print("idade 1")
+elif idade == 2:
+    print('Idade 2')
+elif idade == 3:
+    print('Idade 3')
+else:
+    print('Infelizmente nao é 1')
+print("continuando o programa")
+print('Fim de programa...')
+
+
+
+
+#EXEMPLO 4
+aluno = input('Nome do aluno: ')
+media_aluno = input('Digite a media: ')
+
+print("O aluno ",aluno, " tem a media ",media_aluno)
+
+
+
+
+#EXEMPLO 5 
+aluno = input('Nome do aluno: ')
+media_aluno = int(input('Digite a media: '))
+if media_aluno >=7:
+    print("Aluno aprovado")
+else:
+    print("Aluno reprovado")
+print("Fim de programa")    
+
+
+
+
+
+#EXEMPLO 6
+aluno = input('Nome do aluno: ')
+nota1 = int(input('Nota 1: '))
+nota2 = int(input('Nota 2: '))
+nota3 = int(input('Nota 3: '))
+nota4 = int(input('Nota 4: '))
+media = (nota1 + nota2 + nota3 + nota4)/4
+if media >=7:
+    print("Parabens ",aluno, " voce foi aprovado com a media ",media)
+else:
+    print("Infelizmente ",aluno, " voce nao atingiu a media")
+
+
+
+
+
+#EXEMPLO 7
+opcao = 's'
+while opcao =='s':
+    aluno = input('Nome do aluno: ')
+    nota1 = int(input('Nota 1: '))
+    nota2 = int(input('Nota 2: '))
+    nota3 = int(input('Nota 3: '))
+    nota4 = int(input('Nota 4: '))
+    media = (nota1 + nota2 + nota3 + nota4)/4
+    if media >=7:
+       print("Parabens ",aluno, " voce foi aprovado com a media ",media)
+    else:
+       print("Infelizmente ",aluno, " voce nao atingiu a media")
+
+    opcao = input("Deseja continuar s=sim ou n=nao ?")
+
+
+
+
+#EXEMPLO 8
+n=0
+contador=0
+while n<=10:
+   print("Orlando ", contador)
+   contador = contador +1
+   n = n + 1
+
+
+
+
+
+
