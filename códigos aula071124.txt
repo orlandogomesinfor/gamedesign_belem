@@ -1,0 +1,40 @@
+#EXEMPLOS DE CÓDIGO PYTHON TABUADA E GRÁFICO
+
+
+#Exemplo de uso de biblioteca
+import pandas as pd
+
+data = {'Nome':['Alice','Bob','Juliano'],
+'Idade':[20,15,17],
+'Bairro':['Penha','Cangaiba','Tatuapé']
+}
+df = pd.DataFrame(data)
+print(df)
+
+
+#Tabuada
+def tabuada(x):
+    n=0
+    while n<=10:
+        print(n , " x ", x , " = ", n*x)
+        n=n+1
+tabuada(7)
+
+
+
+
+#Exemplo1
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4],[1,4,9,7])
+plt.show()
+
+
+#Exemplo 2
+import pandas as pd
+dados = {
+    'Categoria':['A','B','C','D'],
+    'Valor':[14,20,5,14]
+}
+df = pd.DataFrame(dados)
+df.plot(kind='pie', y='Valor', labels=df['Categoria'], autopct='%1.1f%%', startangle=90)
+plt.show()

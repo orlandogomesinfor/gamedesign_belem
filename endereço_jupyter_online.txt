@@ -1,0 +1,3 @@
+Esse endereço permiter executar códigos python dentro do ambiente Jupyter Notebook
+
+https://jupyter.org/try-jupyter
