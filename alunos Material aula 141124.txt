@@ -1,0 +1,53 @@
+#exemplo 1
+def mostra():
+    print('Passou para proxima fase')
+    vida =10
+    print('objetivo: salvar o Rei')
+    print('Aguarde o portão abrir')
+    
+print('Nome jogador')
+mostra()
+print('----------------------')
+print('------ Fim fase -------')
+
+
+#exemplo 2
+def numero(x):
+    if x==1:
+        print('você escolheu 1')
+    elif x==2:
+        print('você escolheu 2')
+    elif x==3:
+        print('você escolheu 3')
+    else:
+        print('Numero escolhido invalido')
+        print('Voce deve digitar 1, 2 ou 3')
+
+arma=int(input("Escolha a arma: '))
+numero(arma)
+
+
+
+#Exemplo biblioteca
+import pandas as pd
+data = {'Nome':['Alice','Bob','Juliano'], 'Idade':[20,15,17], 'Bairro':['Penha','Cangaiba','Tatuapé'] }
+df = pd.DataFrame(data)
+print(df)
+#print(data)
+
+
+
+#Gráfico de linha
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4],[1,4,9,10],"b")
+
+
+
+#Grafico de Pizza
+import pandas as pd
+import matplotlib.pyplot as plt
+dados = {'Categoria':['A','B','C','D'], 'Valor':[30,20,5,15]}
+df=pd.DataFrame(dados)
+df.plot(kind='pie', y='Valor', labels=df['Categoria'], autopct='%1.1f%%', startangle=90)
+#exibindo
+plt.show()
