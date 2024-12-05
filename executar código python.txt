@@ -1,0 +1,11 @@
+
+#editor de código
+#Linguagem instalada e bibliotecas
+VSCODE
+PYCHARM
+
+
+#Programando online
+https://jupyter.org/try
+programiz.com
+w3schools.com
